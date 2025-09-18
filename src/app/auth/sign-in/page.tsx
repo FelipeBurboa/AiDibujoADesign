@@ -114,7 +114,7 @@ export default function LoginPage() {
         </div>
 
         <div className="bg-muted rounded-(--radius) border p-3">
-          <p className="text-accent-foreground text-center text-sm">
+          <p className="text-foreground text-center text-sm">
             ¿No tienes una cuenta?
             <Button asChild variant="link" className="px-2">
               <Link href="/auth/sign-up">Crear cuenta</Link>

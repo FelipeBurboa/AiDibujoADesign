@@ -16,7 +16,7 @@ export default function LoginPage() {
             <h1 className="mb-1 mt-4 text-xl font-semibold">
               Crear cuenta BocetIA
             </h1>
-            <p className="text-sm">Bienvenido! Crea una cuenta para empezar</p>
+            <p className="text-sm">¡Bienvenido! Crea una cuenta para empezar</p>
           </div>
 
           <hr className="my-4 border-dashed" />
@@ -99,7 +99,7 @@ export default function LoginPage() {
         </div>
 
         <div className="bg-muted rounded-(--radius) border p-3">
-          <p className="text-accent-foreground text-center text-sm">
+          <p className="text-foreground text-center text-sm">
             ¿Ya tienes una cuenta?
             <Button asChild variant="link" className="px-2">
               <Link href="/auth/sign-in">Iniciar sesión</Link>
