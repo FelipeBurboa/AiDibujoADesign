@@ -5,7 +5,7 @@ import { v } from "convex/values";
 const schema = defineSchema({
   ...authTables,
 
-  suscriptions: defineTable({
+  subscriptions: defineTable({
     userId: v.id("users"),
     polarCustomerId: v.string(),
     polarSubscriptionId: v.string(),
